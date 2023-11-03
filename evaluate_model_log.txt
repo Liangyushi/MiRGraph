@@ -1,0 +1,96 @@
+10-18 09:17:57	##### arguments #####
+10-18 09:17:57	data_config: config/data/miRAW_eval.json
+10-18 09:17:57	-- with_esa: True
+10-18 09:17:57	-- path: {'test0': 'data/miRAW_Test0.txt', 'test1': 'data/miRAW_Test1.txt', 'test2': 'data/miRAW_Test2.txt', 'test3': 'data/miRAW_Test3.txt', 'test4': 'data/miRAW_Test4.txt', 'test5': 'data/miRAW_Test5.txt', 'test6': 'data/miRAW_Test6.txt', 'test7': 'data/miRAW_Test7.txt', 'test8': 'data/miRAW_Test8.txt', 'test9': 'data/miRAW_Test9.txt'}
+10-18 09:17:57	model_config: config/model/TargetNet.json
+10-18 09:17:57	-- skip_connection: True
+10-18 09:17:57	-- num_channels: [16, 16, 32]
+10-18 09:17:57	-- num_blocks: [2, 1, 1]
+10-18 09:17:57	-- stem_kernel_size: 5
+10-18 09:17:57	-- block_kernel_size: 3
+10-18 09:17:57	-- pool_size: 3
+10-18 09:17:57	run_config: config/run/run.json
+10-18 09:17:57	-- batch_size_eval: 256
+10-18 09:17:57	checkpoint: pretrained_models/TargetNet.pt
+10-18 09:17:57	device: cpu (0 GPUs)
+10-18 09:17:57	output_path: results/TargetNet-evaluation/
+10-18 09:17:57	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+10-18 09:17:57	start loading datasets
+10-18 09:25:58	loaded 1500688 test0 samples
+10-18 09:34:18	loaded 1511791 test1 samples
+10-18 10:16:30	##### arguments #####
+10-18 10:16:30	data_config: config/data/miRAW_eval.json
+10-18 10:16:30	-- with_esa: True
+10-18 10:16:30	-- path: {'test0': 'data/miRAW_Test0.txt', 'test1': 'data/miRAW_Test1.txt', 'test2': 'data/miRAW_Test2.txt', 'test3': 'data/miRAW_Test3.txt', 'test4': 'data/miRAW_Test4.txt', 'test5': 'data/miRAW_Test5.txt', 'test6': 'data/miRAW_Test6.txt', 'test7': 'data/miRAW_Test7.txt', 'test8': 'data/miRAW_Test8.txt', 'test9': 'data/miRAW_Test9.txt'}
+10-18 10:16:30	model_config: config/model/TargetNet.json
+10-18 10:16:30	-- skip_connection: True
+10-18 10:16:30	-- num_channels: [16, 16, 32]
+10-18 10:16:30	-- num_blocks: [2, 1, 1]
+10-18 10:16:30	-- stem_kernel_size: 5
+10-18 10:16:30	-- block_kernel_size: 3
+10-18 10:16:30	-- pool_size: 3
+10-18 10:16:30	run_config: config/run/run.json
+10-18 10:16:30	-- batch_size_eval: 256
+10-18 10:16:30	checkpoint: pretrained_models/TargetNet.pt
+10-18 10:16:30	device: cpu (0 GPUs)
+10-18 10:16:30	output_path: results/TargetNet-evaluation/
+10-18 10:16:30	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+10-18 10:16:30	start loading datasets
+10-18 10:24:42	loaded 1500688 test0 samples
+10-18 10:33:14	loaded 1511791 test1 samples
+10-18 11:31:21	##### arguments #####
+10-18 11:31:21	data_config: config/data/miRAW_eval.json
+10-18 11:31:21	-- with_esa: True
+10-18 11:31:21	-- path: {'test0': 'data/miRAW_Test0.txt', 'test1': 'data/miRAW_Test1.txt', 'test2': 'data/miRAW_Test2.txt', 'test3': 'data/miRAW_Test3.txt', 'test4': 'data/miRAW_Test4.txt', 'test5': 'data/miRAW_Test5.txt', 'test6': 'data/miRAW_Test6.txt', 'test7': 'data/miRAW_Test7.txt', 'test8': 'data/miRAW_Test8.txt', 'test9': 'data/miRAW_Test9.txt'}
+10-18 11:31:21	model_config: config/model/TargetNet.json
+10-18 11:31:21	-- skip_connection: True
+10-18 11:31:21	-- num_channels: [16, 16, 32]
+10-18 11:31:21	-- num_blocks: [2, 1, 1]
+10-18 11:31:21	-- stem_kernel_size: 5
+10-18 11:31:21	-- block_kernel_size: 3
+10-18 11:31:21	-- pool_size: 3
+10-18 11:31:21	run_config: config/run/run.json
+10-18 11:31:21	-- batch_size_eval: 256
+10-18 11:31:21	checkpoint: pretrained_models/TargetNet.pt
+10-18 11:31:21	device: cuda (1 GPUs)
+10-18 11:31:21	output_path: results/TargetNet-evaluation/
+10-18 11:31:21	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+10-18 11:31:24	start loading datasets
+10-18 11:38:00	loaded 1500688 test0 samples
+10-18 11:44:48	loaded 1511791 test1 samples
+10-18 11:51:33	loaded 1472021 test2 samples
+10-18 11:58:14	loaded 1501688 test3 samples
+10-18 12:04:47	loaded 1448912 test4 samples
+10-18 12:11:53	loaded 1544168 test5 samples
+10-18 12:18:51	loaded 1493523 test6 samples
+10-18 12:25:11	loaded 1462850 test7 samples
+10-18 12:32:21	loaded 1511517 test8 samples
+10-18 12:39:51	loaded 1516477 test9 samples
+10-18 12:39:51	elapsed time: 1:08:26.516309
+
+10-18 12:39:51	start initializing a model
+10-18 12:39:51	end initializing a model
+10-18 12:39:51	elapsed time: 0:00:00.094611
+
+10-18 12:39:51	start setting trainer configurations
+10-18 12:39:51	loading a model state_dict from the checkpoint
+10-18 12:39:51	end setting trainer configurations
+10-18 12:39:51	elapsed time: 0:00:00.070402
+
+10-18 12:39:51	start evaluating a model
+10-18 12:39:51	processing test0
+10-18 12:40:29	processing test1
+10-18 12:40:58	processing test2
+10-18 12:41:26	processing test3
+10-18 12:41:55	processing test4
+10-18 12:42:23	processing test5
+10-18 12:42:52	processing test6
+10-18 12:43:21	processing test7
+10-18 12:43:48	processing test8
+10-18 12:44:16	processing test9
+10-18 12:44:44	end evaluating a model
+10-18 12:44:44	elapsed time: 0:04:53.360219
+
