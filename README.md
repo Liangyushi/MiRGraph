@@ -18,7 +18,7 @@ Input data can be obtained from this link [Input Data] (https://drive.google.com
 1. File 'dataCombine_negall.pkl' used as the input of model with network.
 2. File 'dataSplit_negall.pkl' used as the input of model without network.
 ### Training Model
-1. After configuring the environment, directly run the .py file in the **train** folder:
+1. After configuring the environment, directly run the .py file in the **./scenario 1/train/** folder:
 - running file 'HGT_BiLSTM_gpu_mlp.py' to train **HGT_BiLSTM**.
 - running file 'HGT_linkloader.py' to train **HGT**.
 - running file 'RGCN_BiLSTM_gpu_directDot.py' to train **MRMTI**.
@@ -33,8 +33,8 @@ Input data can be obtained from this link [Input Data] (https://drive.google.com
 - Then, running file 'HGT&TransCNN_embedding.ipynb' to obtain the embedding of gene and miRNA.
 - Finally, running file 'miRGraph_stepbystep_gpu_0.001.py' to train the model **miRGraph_stepbystep**.
 ### Testing Model
-1. Directly running the .ipynb file in the **test** folder to obtain the testing results of all methods.
-2. Testing results of all methods are in **results** folder, directly running file 'AllmethodMetric.ipynb' can obtain metrics of them.
+1. Directly running the .ipynb file in the **./scenario 1/test/** folder to obtain the testing results of all methods.
+2. Testing results of all methods are in **./scenario 1/test/results/** folder, directly running file 'AllmethodMetric.ipynb' can obtain metrics of them.
 
 ## Scenario 2
 ### Prepreocessed Data
@@ -42,7 +42,7 @@ Input data can be obtained from this link [Input Data] (https://drive.google.com
 1. File 'dataCombine_negall_usingmiRNAanchor.pkl' used as the input of model with network.
 2. File 'dataSplit_negall_usingmiRNAanchor.pkl' used as the input of model without network.
 ### Training Model
-1. After configuring the environment, directly run the .py file in the **train** folder:
+1. After configuring the environment, directly run the .py file in the **./scenario 2/train/** folder:
 - running file 'HGT_BiLSTM_cpu_usingmiRNAanchor.py' to train **HGT_BiLSTM**.
 - running file 'HGTfull_usingmiRNAanchor.py' to train **HGT**.
 - running file 'RGCN_BiLSTM_cpu_usingmiRNAanchor.py' to train **MRMTI**.
@@ -57,7 +57,7 @@ Input data can be obtained from this link [Input Data] (https://drive.google.com
 - Then, running file 'HGT&TransCNN_embedding_usingmiRNAanchor.ipynb' to obtain the embedding of gene and miRNA.
 - Finally, running file 'miRGraph_stepbystep_gpu_0.001_usingmiRNAanchor.py' to train the model **miRGraph_stepbystep**.
 ### Testing Model
-1. Directly running the .ipynb file in the **test** folder to obtain the testing results of all methods.
-2. Testing results of all methods are in **results** folder, directly running file 'AllmethodMetric_usingmiRNA.ipynb' can obtain metrics of them.
+1. Directly running the .ipynb file in the **./scenario 2/test/** folder to obtain the testing results of all methods.
+2. Testing results of all methods are in **./scenario 2/test/results/** folder, directly running file 'AllmethodMetric_usingmiRNA.ipynb' can obtain metrics of them.
 
 
