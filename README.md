@@ -14,7 +14,7 @@ ryp2
 
 ## Scenario 1
 ### Prepreocessed Data
-Input data can be obtained from this link [Input Data] (https://pages.github.com/).
+Input data can be obtained from this link [Input Data] (https://drive.google.com/file/d/1-oYgciNZEe-ubRLzwB9BSWLDlZR7Pz3J/view?usp=drive_link).
 1. File 'dataCombine_negall.pkl' used as the input of model with network.
 2. File 'dataSplit_negall.pkl' used as the input of model without network.
 ### Training Model
@@ -38,7 +38,7 @@ Input data can be obtained from this link [Input Data] (https://pages.github.com
 
 ## Scenario 2
 ### Prepreocessed Data
-Input data can be obtained from this link [Input Data] (https://pages.github.com/).
+Input data can be obtained from this link [Input Data] (https://drive.google.com/file/d/1-oYgciNZEe-ubRLzwB9BSWLDlZR7Pz3J/view?usp=drive_link).
 1. File 'dataCombine_negall_usingmiRNAanchor.pkl' used as the input of model with network.
 2. File 'dataSplit_negall_usingmiRNAanchor.pkl' used as the input of model without network.
 ### Training Model
