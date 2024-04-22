@@ -1,5 +1,5 @@
 # MiRGraph
-The source code of the paper “MiRGraph: A transformer-based feature learning approach to identify microRNA-target interactions by integrating heterogeneous graph network and sequence information disease-related miRNA pairs”
+The source code of the paper “MiRGraph: learning of microRNA-mRNA interactomes from heterogeneous gene regulatory network and genomic sequences”
 
 ## Runing Environment
 python 3.11.8
