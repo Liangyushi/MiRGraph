@@ -1,5 +1,7 @@
-# MiRGraph
-The source code of the paper “MiRGraph: learning of microRNA-mRNA interactomes from heterogeneous gene regulatory network and genomic sequences”
+# MiRGraph: A hybrid deep learning approach to identify microRNA-target interactions by integrating heterogeneous regulatory network and genomic sequences
+The proposed framework MiRGraph mainly consists of three parts (Fig. 1): a. Heterogeneous information network (HIN) construction; b. Feature Encoder; c. MTI Predictor. Briefly, we first built a heterogeneous information network (HIN), and obtain the initial network and sequence one-hot encoding of miRNAs and genes (Fig. 1a). They are fed into feature encoder including two modules (i.e. HGT and TransCNN) to learn network and sequence representations separately (Fig. 1b). Finally, we feed the concatenated representation into the MTI predictor (Fig. 1c). Details of each step are described below.
+
+<img width="4552" height="4375" alt="fig31" src="https://github.com/user-attachments/assets/dffb6bb6-06e8-4f1e-965b-4bfa5f83e896" />
 
 ## Runing Environment
 python 3.11.8
@@ -60,4 +62,5 @@ Input data can be obtained from this link [Input Data] (https://drive.google.com
 1. Directly running the .ipynb file in the **./scenario 2/test/** folder to obtain the testing results of all methods.
 2. Testing results of all methods are in **./scenario 2/test/results/** folder, directly running file 'AllmethodMetric_usingmiRNA.ipynb' can obtain metrics of them.
 
-
+# Citation
+P. Liu, Y. Liu, J. Luo and Y. Li, "MiRGraph: A hybrid deep learning approach to identify microRNA-target interactions by integrating heterogeneous regulatory network and genomic sequences," 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Lisbon, Portugal, 2024, pp. 1028-1035, doi: 10.1109/BIBM62325.2024.10822436.
